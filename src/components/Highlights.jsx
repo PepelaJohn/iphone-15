@@ -33,6 +33,7 @@ const Highlights = () => {
             </p>
           </div>
         </div>
+        
       </div>
     </section>
   );
