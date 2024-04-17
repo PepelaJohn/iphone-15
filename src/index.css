@@ -43,11 +43,11 @@ canvas {
   }
 
   .color-container {
-    @apply flex items-center justify-center px-4 py-4 rounded-full bg-gray-300 backdrop-blur;
+    @apply flex items-center justify-center px-4 py-4 rounded-full bg-gray-900 backdrop-blur;
   }
 
   .size-btn-container {
-    @apply flex items-center justify-center p-1 rounded-full bg-gray-300 backdrop-blur ml-3 gap-1;
+    @apply flex items-center justify-center p-1 rounded-full bg-gray-900 backdrop-blur ml-3 gap-1;
   }
 
   .size-btn {
@@ -63,7 +63,7 @@ canvas {
   }
 
   .feature-text {
-    @apply text-gray-200 max-w-md text-lg md:text-xl font-semibold opacity-0 translate-y-[100px];
+    @apply text-gray-400 max-w-md text-lg md:text-xl font-semibold opacity-0 translate-y-[100px];
   }
 
   .feature-text-container {
@@ -107,7 +107,7 @@ canvas {
   }
 
   .hiw-text {
-    @apply text-gray-200 text-xl font-normal md:font-semibold;
+    @apply text-gray-400 text-xl font-normal md:font-semibold;
   }
 
   .hiw-bigtext {
@@ -121,4 +121,7 @@ canvas {
   .g_fadeIn {
     @apply opacity-0 translate-y-[100px];
   }
+}
+.transittion-all-ease {
+  transition: background-color ease-in-out 0.8s;
 }
